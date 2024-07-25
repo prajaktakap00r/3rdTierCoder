@@ -1,7 +1,14 @@
+import Code from "./Pages/Code";
+import Explanation from "./Pages/Explanation";
+
 function App() {
   return (
     <>
-      <p className="bg-pink-600">hello</p>
+      <h1 className="text-center uppercase font-bold text-3xl m-2 p-2 ">
+        Sort An Array
+      </h1>
+
+      <Explanation />
     </>
   );
 }
