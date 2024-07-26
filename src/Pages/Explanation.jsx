@@ -7,7 +7,7 @@ export default function Explanation() {
           <input
             type="text"
             placeholder="Enter leetcode question number"
-            className="w-full px-5 py-5 pr-10 rounded-[15px] text-black border-gray-300 focus:border-[#EBA340] focus:ring-4 focus:ring-[#EBA340] focus:outline-none"
+            className="mt-[6.3rem] w-full px-5 py-5 pr-10 rounded-[15px] text-black border-gray-300 focus:border-[#EBA340] focus:ring-4 focus:ring-[#EBA340] focus:outline-none"
           />
           <SearchIcon className="absolute right-2  text-black" />
         </div>
