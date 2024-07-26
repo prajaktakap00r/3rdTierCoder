@@ -1,15 +1,17 @@
 import Code from "./Pages/Code";
+
 import Explanation from "./Pages/Explanation";
+import Footer from "./Pages/Footer";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
-    <>
-      <h1 className="text-center uppercase font-bold text-3xl m-2 p-2 ">
-        Sort An Array
-      </h1>
-
+    <main className="bg-black">
+      <Navbar />
       <Explanation />
-    </>
+      <Code />
+      <Footer />
+    </main>
   );
 }
 

@@ -1,47 +1,77 @@
-import Code from "./Code";
+import SearchIcon from "@mui/icons-material/Search";
 export default function Explanation() {
   return (
-    <section className="m-2 p-2 flex flex-row font-edu">
-      <div className="text-sm flex flex-row m-2 p-2">
-        <div className="text-black width-[1/2]">
-          <h1 className="uppercase font-bold text-xl border-2 rounded-md border-yellow-400 bg-yellow-400 mt-8 p-2">
-            Explanation
-          </h1>
-          <h1 className="uppercase font-bold text-lg border-2 rounded-md  mt-6 p-2 mb-6">
-            Intuition
-          </h1>
+    <div className="h-wrap bg-black text-white font-raleway">
+      <main className="flex flex-col items-center px-4">
+        <div className="my-4 relative w-[25rem] max-w-md">
+          <input
+            type="text"
+            placeholder="sortArray"
+            className="w-full p-2 pr-10 rounded-md text-black"
+          />
+          <SearchIcon className="absolute right-2 top-2 text-black" />
+        </div>
 
-          <p className="text-pretty text-lg">
-            The problem is to sort an array of integers, and we are using the
-            merge sort algorithm to achieve this. Merge sort is a classic
-            divide-and-conquer algorithm that splits the array into halves,
-            sorts each half recursively, and then merges the sorted halves back
-            together.
-          </p>
-
-          <h1 className="uppercase font-bold text-lg border-2 rounded-md  mt-6 p-2 mb-6">
+        <section className="bg-gray-800 p-4 rounded-lg text-center w-full max-w-7xl m-5">
+          <h2 className="text-2xl font-bold text-yellow-400 p-2 m-2">
             Approach
-          </h1>
+          </h2>
+          <ol className="mt-2 list-decimal list-inside text-left ">
+            <li className="p-2">
+              The main function <code>sortArray</code> contains a nested
+              function <code>quick_sort</code>, which is a common pattern to
+              encapsulate the recursive logic within the sorting function and
+              allows us to use variables from the outer scope.
+            </li>
 
-          <ol className="text-lg">
-            <li>
-              Divide: Split the array into two halves by finding the middle
-              index
+            <li className="p-2">
+              <code>quick_sort</code> takes two arguments, <code>l</code> and{" "}
+              <code>r</code>, which are the indices of the left and right
+              boundaries of the sub-array that it needs to sort.
             </li>
-            <li>
-              Divide: Split the array into two halves by finding the middle
-              index
+            <li className="p-2">
+              The termination condition for the recursion is when the left
+              boundary <code>l</code> is greater than or equal to the right
+              boundary <code>r</code>. At this point, the sub-array has zero or
+              one element and is considered sorted.
             </li>
-            <li>
-              Divide: Split the array into two halves by finding the middle
-              index
+            <li className="p-2">
+              The main function <code>sortArray</code> contains a nested
+              function <code>quick_sort</code>, which is a common pattern to
+              encapsulate the recursive logic within the sorting function and
+              allows us to use variables from the outer scope.
+            </li>
+            <li className="p-2">
+              <code>quick_sort</code> takes two arguments, <code>l</code> and{" "}
+              <code>r</code>, which are the indices of the left and right
+              boundaries of the sub-array that it needs to sort.
+            </li>
+            <li className="p-2">
+              The termination condition for the recursion is when the left
+              boundary <code>l</code> is greater than or equal to the right
+              boundary <code>r</code>. At this point, the sub-array has zero or
+              one element and is considered sorted.
+            </li>
+            <li className="p-2">
+              The main function <code>sortArray</code> contains a nested
+              function <code>quick_sort</code>, which is a common pattern to
+              encapsulate the recursive logic within the sorting function and
+              allows us to use variables from the outer scope.
+            </li>
+            <li className="p-2">
+              <code>quick_sort</code> takes two arguments, <code>l</code> and{" "}
+              <code>r</code>, which are the indices of the left and right
+              boundaries of the sub-array that it needs to sort.
+            </li>
+            <li className="p-2">
+              The termination condition for the recursion is when the left
+              boundary <code>l</code> is greater than or equal to the right
+              boundary <code>r</code>. At this point, the sub-array has zero or
+              one element and is considered sorted.
             </li>
           </ol>
-        </div>
-        <div className="w-[1/2] m-2 p-2">
-          <Code />
-        </div>
-      </div>
-    </section>
+        </section>
+      </main>
+    </div>
   );
 }

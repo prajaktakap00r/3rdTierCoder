@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       edu: ["Edu AU VIC WA NT Hand", "cursive"],
+      raleway: ["Raleway", "sans-serif"],
     },
   },
   plugins: [],
