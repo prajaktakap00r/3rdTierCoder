@@ -46,17 +46,17 @@ public:
   `;
 
   return (
-    <div className="mx-[6.3rem]">
+    <div className="mx-[4rem]">
       <section className="flex flex-col md:flex-row w-full font-raleway ">
         <div className="bg-white bg-opacity-15 p-4 rounded-lg md:w-1/2 max-h-[calc(100vh-3rem)] overflow-auto w-[50%] mt-[3.8rem] px-5">
-          <h2 className="text-[2.3rem] font-bold text-yellow-400 mt-[3.8rem] mb-[1.6rem] font-titillium text-center">
+          <h2 className="text-[1.7rem] font-bold text-yellow-400 mt-[3.8rem] mb-[1.6rem] font-titillium text-center">
             Sort an Array
           </h2>
 
           <SyntaxHighlighter
             language="cpp"
             style={docco}
-            className="font-unna text-lg"
+            className="font-unna text-sm"
           >
             {codeString}
           </SyntaxHighlighter>
