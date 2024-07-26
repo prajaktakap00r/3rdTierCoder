@@ -48,8 +48,8 @@ public:
   return (
     <div className="mx-[4rem]">
       <section className="flex flex-col md:flex-row w-full font-raleway ">
-        <div className="bg-white bg-opacity-15 p-4 rounded-lg md:w-1/2 max-h-[calc(100vh-3rem)] overflow-auto w-[50%] mt-[3.8rem] px-5">
-          <h2 className="text-[1.7rem] font-bold text-yellow-400 mt-[3.8rem] mb-[1.6rem] font-titillium text-center">
+        <div className="bg-white bg-opacity-15 p-4 rounded-lg lg:w-[2/3] md:w-2/3 max-h-[calc(100vh-3rem)] overflow-auto  mt-[3.8rem] px-5">
+          <h2 className="text-[1.7rem] font-bold text-yellow-400 mt-[1.6rem] mb-[1.6rem] font-titillium text-center">
             Sort an Array
           </h2>
 
@@ -62,19 +62,19 @@ public:
           </SyntaxHighlighter>
         </div>
 
-        <div className="w-[50%] lg:w-[1/2]  md:w-1/2 md:pl-4 flex flex-col items-center md:mt-0 lg:m-6 ">
+        <div className="lg:w-[1/3] md:w-1/3 md:pl-4 flex flex-col items-center md:mt-0 lg:m-6 ">
           <iframe
-            className="mt-[3.8rem] p-0"
+            className="mt-[3.8rem] "
             width="100%"
-            height="415"
+            height="50%"
             src="https://www.youtube.com/embed/pVuV87o9438"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-          <div className="flex flex-col items-center p-20 ">
-            <span className=" text-lg lg:text-4xl font-regular text-white font-montserrat my-auto">
+          <div className="flex flex-col items-center py-20 w-full">
+            <span className=" text-[0.5rem] lg:text-4xl font-regular text-white font-montserrat my-auto">
               3rd Tier -{" "}
               <span className="text-yellow-300 font-bold">Coder</span>
             </span>

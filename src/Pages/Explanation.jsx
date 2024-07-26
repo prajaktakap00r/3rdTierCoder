@@ -7,16 +7,16 @@ export default function Explanation() {
           <input
             type="text"
             placeholder="Enter leetcode question number"
-            className="font-titillium  mt-[6.3rem] w-full px-5 py-5 pr-10 rounded-[15px] text-black border-gray-300 focus:border-[#EBA340] focus:ring-4 focus:ring-[#EBA340] focus:outline-none"
+            className="font-titillium mt-[6.3rem] w-full px-5 py-5 pr-10 rounded-[15px] text-black border-gray-300 focus:border-[#EBA340] focus:ring-4 focus:ring-[#EBA340] focus:outline-none"
           />
           <SearchIcon className="absolute text-black" />
         </div>
 
-        <section className="bg-white bg-opacity-15 px-[4.5rem] rounded-lg text-center w-full max-h-[calc(100vh-3rem)] overflow-auto">
-          <h2 className="text-[1.7rem] font-bold text-yellow-400 mt-[3.8rem] mb-[1.6rem] font-titillium ">
+        <section className="bg-white bg-opacity-15 px-[2rem] rounded-lg text-center w-full max-h-[calc(100vh-3rem)] overflow-auto">
+          <h2 className="text-[1.7rem] font-bold text-yellow-400 font-titillium mt-[1.6rem]">
             Approach
           </h2>
-          <ul className="mt-2 list-inside text-left font-redHatDisplay leading-normal  text-[1rem] mb-[1.6rem] list-disc pl-5 space-y-2">
+          <ul className="mt-2 list-inside text-left font-redHatDisplay leading-normal text-[1rem] mb-[1.6rem] list-disc pl-5 space-y-2">
             <li className="p-2">
               The main function <code>sortArray</code> contains a nested
               function <code>quick_sort</code>, which is a common pattern to
